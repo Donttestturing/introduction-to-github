@@ -22,7 +22,7 @@ _Create workflows that enable you to use Continuous Integration (CI) for your pr
 
 [Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) can help you stick to your team’s quality standards by running tests and reporting the results on GitHub. CI tools run builds and tests, triggered by commits. The results post back to GitHub in the pull request. The goal is fewer issues in `main` and faster feedback as you work.
 
-- **Who is this for**: Developers, DevOps Engineers, new GitHub users, students, teams.
+- __Who is this for__: Developers, DevOps Engineers, new GitHub users, students, teams.
 - **What you'll learn**: What continuous integration is, how to use GitHub Actions for CI, how to create a workflow that runs tests and produces test reports.
 - **What you'll build**: We'll use [remark-lint](https://github.com/remarkjs/remark-lint) to check the consistency of Markdown files.
 - **Prerequisites**: We assume you've completed [Hello GitHub Actions](https://github.com/skills/hello-github-actions) first.
@@ -110,7 +110,7 @@ You can follow along as GitHub Actions runs your job by going to the **Actions**
 
 When the tests finish, you'll see a red X :x: or a green check mark :heavy_check_mark: in the merge box. At that point, you'll have access to logs for the build job and its associated steps.
 
-<!-- Note here: Learners -- yup, you found the error! Course maintainers -- leave the italics with * instead of _ for the error case. -->
+<!-- Note here: Learners -- yup, you found the error! Course maintainers -- leave the italics with _ instead of _ for the error case. -->
 
 *By looking at the logs, can you identify which tests failed?* To find it, go to one of the failed builds and scrolling through the log. Look for a section that lists all the unit tests. We're looking for the name of the test with an "x".
 
